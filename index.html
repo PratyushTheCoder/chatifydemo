@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatify | Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-zinc-900">
+    <div class="navbar container-fluid flex p-8 font-bold bg-zinc-950/80 text-white text-2xl justify-between sticky top-0 backdrop-blur-sm">
+        <div class="logo cursor-pointer">Chatify</div>
+        <div class="Toolbar flex">
+          <div class="updates mx-4 cursor-pointer"></div>
+          <div class="search mx-4 cursor-pointer invert"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="M380-320q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l224 224q11 11 11 28t-11 28q-11 11-28 11t-28-11L532-372q-30 24-69 38t-83 14Zm0-80q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg></div>
+          <div class="menu cursor-pointer invert"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z"/></svg></div>
+        </div>
+      </div>
+      <div class="chat-container container-fluid bg-zinc-900 h-full min-h-screen">
+        <div class="chat conatiner-fluid border-solid border-y-2 border-black text-white flex py-5 px-4 cursor-pointer"> 
+            <img class="dp flex items-center rounded-full" src="./assets/defprofilepic.jpg" alt="DP">
+            <div class="chat-info px-3">
+            <div class="name font-bold">AI Chat Bot</div>
+            <div class="last-message text-white/50">A great start to test the app.</div>   
+        </div>
+        </div>
+        <div class="chat conatiner-fluid border-solid border-y-2 border-black text-white flex py-5 px-4 cursor-pointer"> 
+           <img class="dp flex items-center rounded-full "src="https://pratyushthecoder.github.io/images/Profile%20Pic.jpg" alt="DP">
+            <div class="chat-info px-3">
+            <div class="name font-bold">PratyushTheCoder</div>
+            <div class="last-message text-white/50">Please provide a feedback for the demo app, Official version Releasing soon.</div>   
+        </div>
+        </div>
+      </div>
+      <div class="navbar container-fluid flex items-center justify-center p-6 font-bold bg-zinc-950/80 text-white z-50 backdrop-blur-sm sticky w-screen bottom-0">
+        <p class='mx-7 cursor-pointer invert'><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="M160-200v-360q0-19 8.5-36t23.5-28l240-180q21-16 48-16t48 16l240 180q15 11 23.5 28t8.5 36v360q0 33-23.5 56.5T720-120H600q-17 0-28.5-11.5T560-160v-200q0-17-11.5-28.5T520-400h-80q-17 0-28.5 11.5T400-360v200q0 17-11.5 28.5T360-120H240q-33 0-56.5-23.5T160-200Z"/></svg></p>
+        <p class='mx-7 cursor-pointer invert'><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="M433-80q-27 0-46.5-18T363-142l-9-66q-13-5-24.5-12T307-235l-62 26q-25 11-50 2t-39-32l-47-82q-14-23-8-49t27-43l53-40q-1-7-1-13.5v-27q0-6.5 1-13.5l-53-40q-21-17-27-43t8-49l47-82q14-23 39-32t50 2l62 26q11-8 23-15t24-12l9-66q4-26 23.5-44t46.5-18h94q27 0 46.5 18t23.5 44l9 66q13 5 24.5 12t22.5 15l62-26q25-11 50-2t39 32l47 82q14 23 8 49t-27 43l-53 40q1 7 1 13.5v27q0 6.5-2 13.5l53 40q21 17 27 43t-8 49l-48 82q-14 23-39 32t-50-2l-60-26q-11 8-23 15t-24 12l-9 66q-4 26-23.5 44T527-80h-94Zm49-260q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Z"/></svg></p>
+      </div>
+</body>
+<script src="script.js"></script>
+</html>
