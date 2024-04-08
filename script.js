@@ -1,5 +1,6 @@
 const chatai=document.getElementById("chat-ai");
 const chatwiki=document.getElementById("chat-wiki");
+const chat_window=document.getElementById("");
 
 
 // Chat logic for the AI chat bot
@@ -10,6 +11,6 @@ chatai.onclick=()=>{
 
 // Chat logic for the wikipedia chatbot
 chatwiki.onclick=()=>{
-    console.log("The wikipedia chat was clicked");
+    
 }
 
